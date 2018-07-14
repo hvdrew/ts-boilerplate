@@ -1,0 +1,18 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon dist",
+    "watch": "tsc --watch"
+  },
+  "author": "Andrew <andrew.merison@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "@types/node": "^10.5.2"
+  }
+}
